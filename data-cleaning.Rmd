@@ -1,0 +1,14 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+ 
+
+```{r}
+library(tidyverse)
+
+artists <- artists %>% filter(V3 %in% top50$Artist.Name)
+
+
+```
+
